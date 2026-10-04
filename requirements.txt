@@ -1,0 +1,22 @@
+# Instagram Bot ULTIMATE - Complete Requirements
+# For Termux & Desktop Environments
+
+# Core Dependencies
+python-telegram-bot==20.3
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Additional Libraries (for better compatibility)
+lxml==4.9.3
+html5lib==1.1
+urllib3==2.1.0
+
+# Optional but recommended
+python-dotenv==1.0.0
+cryptography==41.0.7
+
+# Note: For Termux, you might also need system packages:
+# pkg update && pkg upgrade -y
+# pkg install python -y
+# pkg install libxml2 libxslt -y
+# pkg install clang -y
